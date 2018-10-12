@@ -6,7 +6,7 @@
 
 node.default['iis-lb']['members'] = [
 {
-	'address' => '10.0.2.15',
+	'address' => '192.169.3.144',
 	'weight' => 100,
 	'port' => 80,
 	'ssl_port' => 80
